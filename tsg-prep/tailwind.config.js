@@ -8,7 +8,9 @@ module.exports = {
 		'./src/components/**/*.js',
 		'./pages/**/*.js'],
 	theme: {
-		extend: {},
+		minHeight: {
+			'60vh': '60vh'
+		}
 	},
 	variants: {},
 	plugins: [
